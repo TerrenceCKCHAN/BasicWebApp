@@ -2,3 +2,7 @@ language: java
 jdk:
 - openjdk8
 script: mvn clean verify
+deploy:
+  api_key:
+    secure: sIKKAuzs0RbyOPWjA4k0wvUnn+rR7oW8QxOb7JfsbkxIip9CiB/S424XI2gnp8Xas0z76ZXg4ZsSYevtTXL0kpxdJP2q4XVKUIF4UZnojwfKjJ89iAu//OJJHggyuc2ZiFm1ss05hIBumEtKxjLcYrMNbV0QgiWNytWXwWjkgIec4eISUDWbx/LQWOi+wlS3TNqkL6Qy+BrJBayK94MK+ZYzsK8DE/cSP1TooCOiTP0eD+U4acWtI8ycGHNgW051wqEJwRNgE/wNkFUiRssZ7ESPsy5/2SuIHe3RyMqCxAdquKxDIYZtha8T06dZlhyZNApwru2j+DBEK3gZ6SmI+zofyXoOXJYfVKF/5IVm54vRI0NRbqSlCnilL/IVB4GpvWfgmv+G9AOhEfYKcJeTtFB8yVsp33FOset5IiTjfIzdKHTmPP3bYKB5ZblOuAtesdrrLl/2giV/YYWRFSWHluHLUeO+/iiJgPXe1ya3vaO1W6U66eWxGnRDMa/PE2k1kl2xWt3KI9twHY72KDvY+pMEn9uPTMEJ+Cdwa6Rc4PDIlCfMC+J0tHYQv7e32Kt+v65VYMFvgvo9vuapIxekn+5asXvvOezWqUh2A9MKRVIlQMEK8C1I7jmJ7FkA4A+0LikfbOUzsEVOtD+sv0iqgEldpiL4Rx5YLAW+MM0NDMI=
+  app: java-ci-app
